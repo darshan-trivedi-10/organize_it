@@ -8,5 +8,5 @@ function HelpFn(){
 }
 
 module.exports = {
-    helpkey : HelpFn
+    Helper : HelpFn
 };
