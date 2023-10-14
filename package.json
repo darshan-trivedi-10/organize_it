@@ -1,0 +1,14 @@
+{
+  "name": "organize-it",
+  "version": "1.0.0",
+  "description": "file system organization using command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ddt",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
