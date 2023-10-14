@@ -1,6 +1,6 @@
 const fs = require("fs");
 const HelpCommand = require("./commands/help.js");
-const {organizer} = require("./commands/organize.js");
+const organizeCommand = require("./commands/organize.js");
 
 let inputArr = process.argv.slice(2);
 
@@ -10,7 +10,7 @@ switch (command) {
   case "tree":
     break;
   case "organize":
-    organizer.organizeFn(inputArr[1]);
+    organizeCommand.organizer(inputArr[1]);
     break;
   case "help":
     HelpCommand.Helper();
